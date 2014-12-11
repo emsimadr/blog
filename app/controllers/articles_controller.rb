@@ -21,6 +21,7 @@ class ArticlesController < ApplicationController
       redirect_to @article
     else
       render 'new'
+    end
   end
   
   def update
